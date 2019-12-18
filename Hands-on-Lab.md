@@ -34,5 +34,27 @@ You can use Azure Migrate to assesses on-premises workloads for migration to Azu
 
 You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit") to assess your current IT infrastructure for a variety of technology migration projects. This Solution Accelerator provides a powerful inventory, assessment, and reporting tool to simplify the migration planning process.
 
-Exercise 1
- 
+## Exercise 1: Migrating default web site using App Service Migration Assistant.
+
+1. Run the App Service Migration Assistant from you desktop.
+
+2. Select the default Web Site and click on Next button.
+
+3. Click on ** Copy Code & Open** it will open one browser tab.
+
+4. Paste the code here and click on next and Enter you Azure credentials from you Lab Details Page.
+
+5. You will see Azure App Service Migration Assistant Signed in page.
+
+6. Now select the subscription and click Use existing Resource Group and select Lift-and-Shift-******. Enter your unique destination        Site Name.
+  
+  
+7. click on create new migration project. It will open new browser window, sign in using your credentials and click on Azure Tools button.
+
+8. Select your resource group Lift-and-Shift-****** and enter your migrate project name and click on next button.
+
+9. On Select assessment tool blade select the **Azure Migrate: Web App Assessment** and click on next button.
+
+10. Select **Azure Migrate: Web App Migration** and click on next button.
+
+11.Click on **Add Tools** button.
