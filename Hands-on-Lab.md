@@ -12,7 +12,7 @@ Parts Unlimited is a sample eCommerce website site built on .Net Core 2.0. The s
 
  
 
-The application that will be migrated is hosted on a Windows server 2012 running Internet Information Services (IIS), while the database is hosted on a computer running SQL Server 2017.
+The application that will be migrated is hosted on a Windows server 2016 running Internet Information Services (IIS), while the database is hosted on a computer running SQL Server 2017.
 
  
 
@@ -58,3 +58,9 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 10. Select **Azure Migrate: Web App Migration** and click on next button.
 
 11.Click on **Add Tools** button.
+
+12. You should be able to see the migrate project select. After this click on **Add migration tools** and select the migration tool        **Azure Migrate: Web App Migration** and click on add tools.
+
+13. Go back to your Azure App Service Migration Assistant and select the migrate project you just created and click on **Migrate**           button.
+
+14. Now after migration you should be able to see **Got to your website** and click on the **Got to your website**. This will open one       your browser window and you will be able to see **IIS** default page.
