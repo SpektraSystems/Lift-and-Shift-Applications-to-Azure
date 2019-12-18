@@ -1,7 +1,7 @@
 ![Microsoft Cloud Workshops](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png 'Microsoft Cloud Workshops')
 
 <div class="MCWHeader1">
-**An end-to-end process for lifting and shifting your applications to Azure**</div>
+##An end-to-end process for lifting and shifting your applications to Azure</div>
 
 
 **overview**
