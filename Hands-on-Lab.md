@@ -64,4 +64,4 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 13. Go back to your Azure App Service Migration Assistant and select the migrate project you just created and click on **Migrate**           button.
 
-14. Now after migration you should be able to see **Got to your website** and click on the **Got to your website**. This will open one       your browser window and you will be able to see **IIS** default page.
+14. Now after migration you should be able to see **Got to your website** and click on the **Got to your website**. This will open one       browser window and you will be able to see **IIS** default page.
