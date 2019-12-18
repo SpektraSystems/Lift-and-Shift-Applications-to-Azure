@@ -46,10 +46,10 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 5. You will see Azure App Service Migration Assistant Signed in page.
 
-6. Now select the subscription and click Use existing Resource Group and select **Lift-and-Shift-######** Enter your unique destination        Site Name.
+6. Now select the subscription and click Use existing Resource Group and select **Lift-and-Shift-######** Enter your unique destination    Site Name.
   
   
-7. click on create new migration project. It will open new browser window, sign in using your credentials and click on Azure Tools button.
+7. click on create new migration project. It will open new browser window, sign in using your credentials and click on Azure Tools          button.
 
 8. Select your resource group **Lift-and-Shift-######** and enter your migrate project name and click on next button.
 
@@ -57,9 +57,9 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 10. Select **Azure Migrate: Web App Migration** and click on next button.
 
-11.Click on **Add Tools** button.
+11. Click on **Add Tools** button.
 
-12. You should be able to see the migrate project select. After this click on **Add migration tools** and select the migration tool        **Azure Migrate: Web App Migration** and click on add tools.
+12. You should be able to see the migrate project select. After this click on **Add migration tools** and select the migration tool         **Azure Migrate: Web App Migration** and click on add tools.
 
 13. Go back to your Azure App Service Migration Assistant and select the migrate project you just created and click on **Migrate**           button.
 
