@@ -114,6 +114,27 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 5. After Sign in select you subscription if you have multiple subscriptions, Select same Resource Group where you create App Service and SQL Server in previously exercises, and expand your RG and select the **app service** you created and click **ok** button.
 
+7. You should see **Web App was published successfully http://partsunlimited.azurewebsites.net/** in your visual studio 2017 output windows. you can copy your website URL and can check if it is working fine or not.
+
+
+## Exercise 4: Connect your SQL Server database to your website.
+
+1. Go to your SQL Server connection strings blade and copy your **ADO.NET** key and update your SQL Server user name and password, and save it in a notepad for later use.
+
+2. got to your **App Service** search for **App Service editor** and click on **Go** button.
+
+3. After clicking on go button, it will open a new tab in your browser and search for **config.json** and open it.
+
+4. Copy the below code and paste it in **config.json** file and it will save automattically. Please remember to change your password in connection string otherwise it will not connect with your SQL server.
+
+
+    "ConnectionStrings": {
+    "DefaultConnectionString": "Server=tcp:partsunlimited23.database.windows.net,1433;Initial Catalog=partunliitedDb;Persist Security Info=False;User ID=demouser;Password=Password.1!!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+  
+ 
+
+
 
 
  
