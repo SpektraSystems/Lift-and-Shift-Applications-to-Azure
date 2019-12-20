@@ -133,7 +133,8 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
     ``` "ConnectionStrings": {
     "DefaultConnectionString": "Server=tcp:partsunlimited23.database.windows.net,1433;Initial Catalog=partunliitedDb;Persist Security Info=False;User ID=demouser;Password=Password.1!!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-  }```
+  }
+  ```
   
 5. You can test that by creating a new user and try to order something from the website.
   
