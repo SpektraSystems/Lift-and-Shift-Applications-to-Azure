@@ -102,7 +102,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 9. Please ensure all 14 table are selected and click on **Start data migration**.
 
 
-## Exercise 4: Publish Application in Azure App serice Using visual studio 2017 community.
+## Exercise 3: Publish Application in Azure App serice Using visual studio 2017 community.
 
 1. Go to you desktop and open **Visual Studio 2017**.
 
