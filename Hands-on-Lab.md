@@ -38,7 +38,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 ## Exercise 1: Migrating default web site using App Service Migration Assistant.
 
-1. Run the App Service Migration Assistant from you Start Menu.
+1. Run the **App Service Migration Assistant** from you Start Menu.
 
 2. Select the default Web Site and click on Next button.
 ![The Select Top 1000 rows menu item is highlighted.](images/defau;t.png 'app service')
