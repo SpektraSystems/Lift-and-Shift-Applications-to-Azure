@@ -36,8 +36,6 @@ You can use Azure Migrate to assesses on-premises workloads for migration to Azu
 You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit") to assess your current IT infrastructure for a variety of technology migration projects. This Solution Accelerator provides a powerful inventory, assessment, and reporting tool to simplify the migration planning process.
 
 
-**before starting the lab you can test that your application is running on local host or not by opening 
-
 ## Exercise 1: Migrating default web site using App Service Migration Assistant.
 
 1. Run the App Service Migration Assistant from you desktop.
@@ -107,11 +105,11 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 2. Click on **+** Sign and Select **Migration**, Enter your project name and please ensure that Source Sever type is selected to **SQL Server** and target server is selected to **Azure SQL Database**, Migration Scope is selected to**Schema and data** after selecting all click on Create button.
 ![The Select Top 1000 rows menu item is highlighted.](images/database.png 'Select Top 1000')
 
-3.On Select source Blade add server name as **lift**, Authentication type as **SQL Server authentication**, enter user name as **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on connect.
+3. On Select source Blade add server name as **labvm**, Authentication type as **SQL Server authentication**, enter user name as **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on connect.
 ![The Select Top 1000 rows menu item is highlighted.](images/db.png 'Select Top 1000')
 
 4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
 
 5. Now on **select target** blade enter your SQL Server URL, select authentication type as **SQL Server authentication** and enter your credentials you enter while creating the SQL Server is previous step. Select **Trust server certificate** and click on connect.
 ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
