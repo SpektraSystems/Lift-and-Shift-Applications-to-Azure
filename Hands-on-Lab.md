@@ -81,26 +81,27 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 ## Exercise 2: Create Azure SQL Database.
 
-**Step 1:**![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+**Step 1:**
 
-1. Create SQL server and database from Azure portal.![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+1. Create SQL server and database from Azure portal.
 ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
-2. Select your RG and click on add button and search for **SQL SERVER** and create **SQL SERVER** and select you RG, enter unique          **Server Name** set loca![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')tion same as your RG and Enter login, Password for the **SQL Server**.
+
+2. Open your RG and click on add button and search for **SQL SERVER** and create **SQL SERVER** and select you RG, enter unique          **Server Name** set location same as your RG and Enter login, Password for the **SQL Server**.
 ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
-3. Click on networking blade select yes on **Allow Azure services and resources to access this server**. after this click on **Review +    create**.![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+
+3. Click on networking blade select yes on **Allow Azure services and resources to access this server**. after this click on **Review +    create**.
   ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
 4. You will see you deployment is completed after some time, copy the URL string of SQL Server in notebook for later use.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+![The Select Top 1000 rows menu item is highlighted.](images/sql.png 'Select Top 1000')
 
 **Step 2:**
 
 1. Go to your VM desktop and open **Microsoft Data Migration assistant**.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+![The Select Top 1000 rows menu item is highlighted.](images/dms.png 'Select Top 1000')
 2. Click on **+** Sign and Select **Migration**, Enter your project name and please ensure that Source Sever type is selected to **SQL Server** and target server is selected to **Azure SQL Database**, Migration Scope is selected to**Schema and data** after selecting all click on Create button.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+![The Select Top 1000 rows menu item is highlighted.](images/database.png 'Select Top 1000')
 3.On Select source Blade add server name as **lift**, Authentication type as **SQL Server authentication**, enter user name as **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on connect.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+![The Select Top 1000 rows menu item is highlighted.](images/db.png 'Select Top 1000')
 4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
 ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
 5. Now on **select target** blade enter your SQL Server URL, select authentication type as **SQL Server authentication** and enter your credentials you enter while creating the SQL Server is previous step. Select **Trust server certificate** and click on connect.
