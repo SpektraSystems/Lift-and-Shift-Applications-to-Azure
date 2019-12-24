@@ -44,12 +44,11 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 ![The Select Top 1000 rows menu item is highlighted.](images/defau;t.png 'app service')
 
 3. Click on **Copy Code & Open** it will open one browser window.
-
-![The Select Top 1000 rows menu item is highlighted.](images/code.png 'Select Top 1000')
+![The Select Top 1000 rows menu item is highlighted.](images/code.png 'code')
 
 
 4. Paste the code here and click on next and Enter you Azure credentials from you Lab Details Page.
-![The Select Top 1000 rows menu item is highlighted.](images/code%2.png 'Select Top 1000')
+![The Select Top 1000 rows menu item is highlighted.](images/code2.png 'Select Top 1000')
 
 5. You will see Azure App Service Migration Assistant Signed in page.
 ![The Select Top 1000 rows menu item is highlighted.](images/signin.png 'Select Top 1000')
@@ -76,7 +75,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 ![The Select Top 1000 rows menu item is highlighted.](images/migrateproject.png 'Select Top 1000')
 
 13. Go back to your Azure App Service Migration Assistant and select the migrate project you just created and click on **Migrate**           button.
-![The Select Top 1000 rows menu item is highlighted.](images/migrate app.png 'Select Top 1000')
+![The Select Top 1000 rows menu item is highlighted.](images/migrateapp.png 'Select Top 1000')
 14. Now after migration you should be able to see **Got to your website** and click on the **Got to your website**. This will open one       browser window and you will be able to see **IIS** default page.
 ![The Select Top 1000 rows menu item is highlighted.](images/website.png 'Select Top 1000')
 
