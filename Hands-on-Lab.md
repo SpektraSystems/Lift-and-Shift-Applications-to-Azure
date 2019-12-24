@@ -92,7 +92,12 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 3. Click on networking blade select yes on **Allow Azure services and resources to access this server**. after this click on **Review +    create**.
   ![The Select Top 1000 rows menu item is highlighted.](images/yes'.png 'Select Top 1000')
   
-4. You will see you deployment is completed after some time, copy the URL string of SQL Server in notebook for later use.
+4. After deployment completed open sql server blade and click in new data and create on database for migration.
+
+5. Enter unique name for database and source empty and click on **ok**.
+ ![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
+
+4. Copy the URL string of SQL Server Database in notepad for later use.
 ![The Select Top 1000 rows menu item is highlighted.](images/sql.png 'Select Top 1000')
 
 **Step 2:**
@@ -101,6 +106,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 ![The Select Top 1000 rows menu item is highlighted.](images/dms.png 'Select Top 1000')
 2. Click on **+** Sign and Select **Migration**, Enter your project name and please ensure that Source Sever type is selected to **SQL Server** and target server is selected to **Azure SQL Database**, Migration Scope is selected to**Schema and data** after selecting all click on Create button.
 ![The Select Top 1000 rows menu item is highlighted.](images/database.png 'Select Top 1000')
+
 3.On Select source Blade add server name as **lift**, Authentication type as **SQL Server authentication**, enter user name as **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on connect.
 ![The Select Top 1000 rows menu item is highlighted.](images/db.png 'Select Top 1000')
 
@@ -153,8 +159,6 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
   
 5. You can test that by creating a new user and try to order something from the website.
 
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
-  
   
   ## After the hands-on lab
 
