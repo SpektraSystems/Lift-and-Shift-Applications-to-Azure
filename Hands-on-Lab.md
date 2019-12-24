@@ -87,10 +87,11 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
 
 2. Open your RG and click on add button and search for **SQL SERVER** and create **SQL SERVER** and select you RG, enter unique          **Server Name** set location same as your RG and Enter login, Password for the **SQL Server**.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+![The Select Top 1000 rows menu item is highlighted.](images/sqlserver.png 'Select Top 1000')
 
 3. Click on networking blade select yes on **Allow Azure services and resources to access this server**. after this click on **Review +    create**.
-  ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/yes'.png 'Select Top 1000')
+  
 4. You will see you deployment is completed after some time, copy the URL string of SQL Server in notebook for later use.
 ![The Select Top 1000 rows menu item is highlighted.](images/sql.png 'Select Top 1000')
 
@@ -102,33 +103,38 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 ![The Select Top 1000 rows menu item is highlighted.](images/database.png 'Select Top 1000')
 3.On Select source Blade add server name as **lift**, Authentication type as **SQL Server authentication**, enter user name as **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on connect.
 ![The Select Top 1000 rows menu item is highlighted.](images/db.png 'Select Top 1000')
+
 4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
 ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+
 5. Now on **select target** blade enter your SQL Server URL, select authentication type as **SQL Server authentication** and enter your credentials you enter while creating the SQL Server is previous step. Select **Trust server certificate** and click on connect.
 ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+
 6. After clicking on connect button select the database you created with SQL Server in previous step and click on **Next** button.
 ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
-7. In the next blade click **Generate SQL Scrippt**.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+
+7. In the next blade click **Generate SQL Script**.
+![The Select Top 1000 rows menu item is highlighted.](images/sqlscript.png 'Select Top 1000')
 8. After complete the Generate SQL Scripp click on **Deploy schema**, after **Schema migration completed** click on **MIgrate Data** button.
 ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
-9. Please ensure all 14 table are selected and click on **Start data migration**.
 
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+9. Please ensure all 14 table are selected and click on **Start data migration**.
+![The Select Top 1000 rows menu item is highlighted.](images/startdata.png 'Select Top 1000')
+
 ## Exercise 3: Publish Application in Azure App serice Using visual studio 2017 community.
 
 1. Go to you desktop and open **Visual Studio 2017**.
 ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
 2. click on **Open Project/ Solution** and navigate to **C:\PartsUnlimited-master** and double click on **PartsUnlimited.sln**.
 ![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
-3. Go to solution explorer and righnt click on **PartsUnlimitedWebsite** and select publish.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
-4. On **PartsunlimitedWebsite** page make sure to click on **New Profile** and select **Select Existing** and click next button and sign in using your azure credentials from Lab details page.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
-5. After Sign in select you subscription if you have multiple subscriptions, Select same Resource Group where you create App Service and SQL Server in previously exercises, and expand your RG and select the **app service** you created and click **ok** button.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+3. Go to solution explorer and right click on **PartsUnlimitedWebsite** and select publish.
+![The Select Top 1000 rows menu item is highlighted.](images/publish.png 'Select Top 1000')
+4. On **PartsunlimitedWebsite** page please make sure to click on **New Profile** and select **Select Existing** and click next button and sign in using your azure credentials from Lab details page.
+![The Select Top 1000 rows menu item is highlighted.](images/nwqprofile.png 'Select Top 1000')
+5. After Sign in select you subscription if you have multiple subscriptions, make sure you select right subscrtiption, Select same Resource Group where you create App Service and SQL Server in previously exercises, and expand your RG and select the **app service** you created and click **ok** button.
+![The Select Top 1000 rows menu item is highlighted.](images/selectapp.png 'Select Top 1000')
 7. You should see **Web App was published successfully http://partsunlimited.azurewebsites.net/** in your visual studio 2017 output windows. you can copy your website URL and can check if it is working fine or not.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+![The Select Top 1000 rows menu item is highlighted.](images/published.png 'Select Top 1000')
 
 ## Exercise 4: Connect your SQL Server database to your website.
 
