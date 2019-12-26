@@ -90,6 +90,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 ![The Select Top 1000 rows menu item is highlighted.](images/sqlserver.png 'Select Top 1000')
 
 3. Click on networking blade select yes on **Allow Azure services and resources to access this server**. after this click on **Review +    create**.
+
   ![The Select Top 1000 rows menu item is highlighted.](images/yes.png 'Select Top 1000')
   
 4. After deployment completed open sql server blade and click in new database and create a new database for migration.
