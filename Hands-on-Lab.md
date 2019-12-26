@@ -90,7 +90,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 ![The Select Top 1000 rows menu item is highlighted.](images/sqlserver.png 'Select Top 1000')
 
 3. Click on networking blade select yes on **Allow Azure services and resources to access this server**. after this click on **Review +    create**.
-  ![The Select Top 1000 rows menu item is highlighted.](images/yes'.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/yes.png 'Select Top 1000')
   
 4. After deployment completed open sql server blade and click in new database and create a new database for migration.
 
@@ -106,15 +106,18 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 ![The Select Top 1000 rows menu item is highlighted.](images/dms.png 'Select Top 1000')
 
 2. Click on **+** Sign and Select **Migration**, Enter your project name and please ensure that Source Sever type is selected to **SQL Server** and target server is selected to **Azure SQL Database**, Migration Scope is selected to**Schema and data** after selecting all click on Create button.
+
 ![The Select Top 1000 rows menu item is highlighted.](images/database.png 'Select Top 1000')
 
 3. On Select source Blade add server name as **labvm**, Authentication type as **SQL Server authentication**, enter user name as **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on connect.
+
 ![The Select Top 1000 rows menu item is highlighted.](images/db.png 'Select Top 1000')
 
 4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
 ![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
 
 5. Now on **select target** blade enter your SQL Server URL, select authentication type as **SQL Server authentication** and enter your credentials you enter while creating the SQL Server is previous step. Select **Trust server certificate** and click on connect.
+
 ![The Select Top 1000 rows menu item is highlighted.](images/target.png 'Select Top 1000')
 
 6. After clicking on connect button select the database you created with SQL Server in previous step and click on **Next** button.
@@ -122,7 +125,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 7. In the next blade click **Generate SQL Script**.
 ![The Select Top 1000 rows menu item is highlighted.](images/sqlscript.png 'Select Top 1000')
-8. After complete the Generate SQL Scripp click on **Deploy schema**, after **Schema migration completed** click on **MIgrate Data** button.
+8. After complete the Generate SQL Scripp click on **Deploy schema**, after **Schema deployment is completed** click on **MIgrate Data** button.
 ![The Select Top 1000 rows menu item is highlighted.](images/schema.png 'Select Top 1000')
 
 9. Please ensure all 14 table are selected and click on **Start data migration**.
