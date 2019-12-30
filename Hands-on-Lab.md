@@ -115,6 +115,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
   ![The Select Top 1000 rows menu item is highlighted.](images/dms.png 'Select Top 1000')
 
 2. Click on **+** Sign and Select **Migration**, Enter your project name and please ensure that Source Sever type is selected to **SQL Server** and target server is selected to **Azure SQL Database**, Migration Scope is selected to**Schema and data** after selecting all click on Create button.
+
  ![The Select Top 1000 rows menu item is highlighted.](images/database.png 'Select Top 1000')
 
 3. On Select source Blade add server name as **labvm**, Authentication type as **SQL Server authentication**, enter user name as **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on connect.
