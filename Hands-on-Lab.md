@@ -94,10 +94,10 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 2. Go to your azure portal, Open **Lift-and-Shift-#####** RG and click on add button and search for **SQL DATABASE** and click on create button. 
   ![The Select Top 1000 rows menu item is highlighted.](images/sqldatabase.png 'database')
 
-3. On **SQL Database** blade, select your RG and enter unique name for SQL Database. 
+3. On **SQL Database** blade, select your RG and enter unique name for SQL Database and click on **create new** option. 
   ![The Select Top 1000 rows menu item is highlighted.](images/server.png 'Select Top 1000')
   
-   **A**. On Server option click on create new and enter unique details, Name and credentials and click ok. 
+   **A**. On SQL Server creation blade enter unique details, Name and credentials for SQL Server and click ok. 
       ![The Select Top 1000 rows menu item is highlighted.](images/server1.png 'Select Top 1000')
    
    **B**. Go to **Networking** on SQL database blade and select connectivity method to **Public Endpoint** and select yes on **Allow azure services and resources to access this server** and **Add current cliend IP address**, then Click on **Review and Create** button and then create button.
