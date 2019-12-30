@@ -43,46 +43,46 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 2. Select the default Web Site and click on Next button.
  ![The Select Top 1000 rows menu item is highlighted.](images/defau;t.png 'app service')
 
-2. Please make sure on **Assessment Report** blade it should be on success note, and click on next button.
- ![The Select Top 1000 rows menu item is highlighted.](images/defau;t.png 'app service')
+3. Please make sure on **Assessment Report** blade it should be on success note, and click on next button.
+ ![The Select Top 1000 rows menu item is highlighted.](images/dw.png 'app service')
  
-3. Click on **Copy Code & Open** it will open one browser window.
+4. Click on **Copy Code & Open** it will open one browser window.
  ![The Select Top 1000 rows menu item is highlighted.](images/code.png 'code')
 
 
-4. Paste the code here and click on next and Enter you Azure credentials from you Lab Details Page.
+5. Paste the code here and click on next and Enter you Azure credentials from you Lab Details Page.
  ![The Select Top 1000 rows menu item is highlighted.](images/code2.png 'Select Top 1000')
 
-5. You will see Azure App Service Migration Assistant Signed in page.
+6. You will see Azure App Service Migration Assistant Signed in page.
  ![The Select Top 1000 rows menu item is highlighted.](images/signin.png 'Select Top 1000')
 
-6. Now select the subscription and click Use existing Resource Group and select **Lift-and-Shift-######** Enter your unique destination    Site Name.
+7. Now select the subscription and click Use existing Resource Group and select **Lift-and-Shift-######** Enter your unique destination    Site Name.
   ![The Select Top 1000 rows menu item is highlighted.](images/app.png 'Select Top 1000')
   
-7. click on create new migration project. It will open new browser window, sign in using your credentials and click on Azure Tools          button and .
+8. click on create new migration project. It will open new browser window, sign in using your credentials and click on Azure Tools          button and .
  ![The Select Top 1000 rows menu item is highlighted.](images/addtools.png 'Select Top 1000')
 
-8. Select your resource group **Lift-and-Shift-######** and enter your migrate project name and click on next button.
+9. Select your resource group **Lift-and-Shift-######** and enter your migrate project name and click on next button.
  ![The Select Top 1000 rows menu item is highlighted.](images/portal.png 'Select Top 1000')
 
-9. On Select assessment tool blade select the **Azure Migrate: Web App Assessment** and click on next button.
+10. On Select assessment tool blade select the **Azure Migrate: Web App Assessment** and click on next button.
  ![The Select Top 1000 rows menu item is highlighted.](images/web.png 'Select Top 1000')
 
-10. Select **Azure Migrate: Web App Migration** and click on next button.
+11. Select **Azure Migrate: Web App Migration** and click on next button.
  ![The Select Top 1000 rows menu item is highlighted.](images/migration.png 'Select Top 1000')
 
-11. Click on **Add Tools** button.
+12. Click on **Add Tools** button.
  ![The Select Top 1000 rows menu item is highlighted.](images/tools.png 'Select Top 1000')
 
-12. You should be able to see the migrate project selected.
+13. You should be able to see the migrate project selected.
  ![The Select Top 1000 rows menu item is highlighted.](images/migrateproject.png 'migrate')
 
-13. Go back to your Azure App Service Migration Assistant and select the migrate project you just created and click on **Migrate**           button.
+14. Go back to your Azure App Service Migration Assistant and select the migrate project you just created and click on **Migrate**           button.
 
     **Note:** You might have to go back to the beginning of the Azure Migrate: Web App Migration and step through again to see  azure        migrate project name appear in the drop down list.
   ![The Select Top 1000 rows menu item is highlighted.](images/migrateapp.png 'project')
 
-14. Now after migration you should be able to see **Got to your website** and click on the **Got to your website**. This will open one       browser window and you will be able to see **IIS** default page.
+15. Now after migration you should be able to see **Got to your website** and click on the **Got to your website**. This will open one       browser window and you will be able to see **IIS** default page.
 ![The Select Top 1000 rows menu item is highlighted.](images/website.png 'Select Top 1000')
 
 ## Exercise 2: Create Azure SQL Database.
