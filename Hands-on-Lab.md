@@ -104,8 +104,8 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
       ![The Select Top 1000 rows menu item is highlighted.](images/network.png 'Select Top 1000')
 
 
-4. Copy the Server name of SQL Database and save in notepad for later use.
-  ![The Select Top 1000 rows menu item is highlighted.](images/sql.png 'Select Top 1000')
+4. After the deployment completed go to SQL Database blade overview and Copy the Server name and save it in notepad for later use.
+  ![The Select Top 1000 rows menu item is highlighted.](images/sm.png 'Select Top 1000')
 
  **Step 2:**
 
