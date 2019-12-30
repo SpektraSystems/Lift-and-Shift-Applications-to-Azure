@@ -114,11 +114,11 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 1. Go to your VM desktop and open **Microsoft Data Migration assistant**.
   ![The Select Top 1000 rows menu item is highlighted.](images/dms.png 'Select Top 1000')
 
-2. Click on **+** Sign and Select **Migration**, Enter your project name and please ensure that Source Sever type is selected to **SQL Server** and target server is selected to **Azure SQL Database**, Migration Scope is selected to**Schema and data** after selecting all click on Create button.
+2. Click on **+** Sign and Select **Migration**, Enter your project name and please ensure that Source Sever type is selected to **SQL      Server** and target server is selected to **Azure SQL Database**, Migration Scope is selected to**Schema and data** after selecting      all   click on Create button.
 
  ![The Select Top 1000 rows menu item is highlighted.](images/database.png 'Select Top 1000')
 
-3. On Select source Blade add server name as **labvm**, Authentication type as **SQL Server authentication**, enter user name as **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on connect.
+3. On Select source Blade add server name as **labvm**, Authentication type as **SQL Server authentication**, enter user name as            **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on        connect.
   ![The Select Top 1000 rows menu item is highlighted.](images/labvm.png 'Select Top 1000')
 
 4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
@@ -152,7 +152,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 3. Go to solution explorer and right click on **PartsUnlimitedWebsite** and select publish.
   ![The Select Top 1000 rows menu item is highlighted.](images/publish.png 'Select Top 1000')
 
-4. On **PartsunlimitedWebsite** page please make sure to click on **New Profile** and select **Select Existing** and click next button and sign in using your azure credentials from Lab details page.
+4. On **PartsunlimitedWebsite** page please make sure to click on **New Profile** and select **Select Existing** and click next button      and sign in using your azure credentials from Lab details page.
   ![The Select Top 1000 rows menu item is highlighted.](images/nwqprofile.png 'Select Top 1000')
 
 5. After Sign in select you subscription if you have multiple subscriptions, make sure you select right subscrtiption, Select same Resource Group where you create App Service and SQL Server in previously exercises, and expand your RG and select the **app service** you created and click **ok** button.
