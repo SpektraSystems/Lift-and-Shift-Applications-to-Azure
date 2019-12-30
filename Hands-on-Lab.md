@@ -60,27 +60,27 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
   ![The Select Top 1000 rows menu item is highlighted.](images/app.png 'Select Top 1000')
   
 7. click on create new migration project. It will open new browser window, sign in using your credentials and click on Azure Tools          button and .
-![The Select Top 1000 rows menu item is highlighted.](images/addtools.png 'Select Top 1000')
+ ![The Select Top 1000 rows menu item is highlighted.](images/addtools.png 'Select Top 1000')
 
 8. Select your resource group **Lift-and-Shift-######** and enter your migrate project name and click on next button.
-![The Select Top 1000 rows menu item is highlighted.](images/portal.png 'Select Top 1000')
+ ![The Select Top 1000 rows menu item is highlighted.](images/portal.png 'Select Top 1000')
 
 9. On Select assessment tool blade select the **Azure Migrate: Web App Assessment** and click on next button.
-![The Select Top 1000 rows menu item is highlighted.](images/web.png 'Select Top 1000')
+ ![The Select Top 1000 rows menu item is highlighted.](images/web.png 'Select Top 1000')
 
 10. Select **Azure Migrate: Web App Migration** and click on next button.
-![The Select Top 1000 rows menu item is highlighted.](images/migration.png 'Select Top 1000')
+ ![The Select Top 1000 rows menu item is highlighted.](images/migration.png 'Select Top 1000')
 
 11. Click on **Add Tools** button.
-![The Select Top 1000 rows menu item is highlighted.](images/tools.png 'Select Top 1000')
+ ![The Select Top 1000 rows menu item is highlighted.](images/tools.png 'Select Top 1000')
 
 12. You should be able to see the migrate project selected.
-![The Select Top 1000 rows menu item is highlighted.](images/migrateproject.png 'migrate')
+ ![The Select Top 1000 rows menu item is highlighted.](images/migrateproject.png 'migrate')
 
 13. Go back to your Azure App Service Migration Assistant and select the migrate project you just created and click on **Migrate**           button.
 
     **Note:** You might have to go back to the beginning of the Azure Migrate: Web App Migration and step through again to see  azure        migrate project name appear in the drop down list.
-![The Select Top 1000 rows menu item is highlighted.](images/migrateapp.png 'project')
+  ![The Select Top 1000 rows menu item is highlighted.](images/migrateapp.png 'project')
 
 14. Now after migration you should be able to see **Got to your website** and click on the **Got to your website**. This will open one       browser window and you will be able to see **IIS** default page.
 ![The Select Top 1000 rows menu item is highlighted.](images/website.png 'Select Top 1000')
@@ -92,27 +92,27 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 1. Create SQL Database from Azure portal.
 
 2. Go to your azure portal, Open **Lift-and-Shift-#####** RG and click on add button and search for **SQL DATABASE** and click on create button. 
-![The Select Top 1000 rows menu item is highlighted.](images/sqldatabase.png 'database')
+ ![The Select Top 1000 rows menu item is highlighted.](images/sqldatabase.png 'database')
 
 3. On **SQL Database** blade, select your RG and enter unique name for SQL Database. 
 
   ![The Select Top 1000 rows menu item is highlighted.](images/server.png 'Select Top 1000')
   
-  A. On Server option click on create new and enter unique details, Name and credentials and click ok. 
+     **A**. On Server option click on create new and enter unique details, Name and credentials and click ok. 
    ![The Select Top 1000 rows menu item is highlighted.](images/server1.png 'Select Top 1000')
    
-  B. Go to **Networking** on SQL database blade and select connectivity method to **Public Endpoint** and select yes on **Allow azure services and resources to access this server** and **Add current cliend IP address**.
+     **B**. Go to **Networking** on SQL database blade and select connectivity method to **Public Endpoint** and select yes on **Allow azure services and resources to access this server** and **Add current cliend IP address**.
   ![The Select Top 1000 rows menu item is highlighted.](images/network.png 'Select Top 1000')
   
-  C. Click on **Review and Create** button and then create button.
+    **C**. Click on **Review and Create** button and then create button.
 
 4. Copy the Server name of SQL Database and save in notepad for later use.
-![The Select Top 1000 rows menu item is highlighted.](images/sql.png 'Select Top 1000')
+ ![The Select Top 1000 rows menu item is highlighted.](images/sql.png 'Select Top 1000')
 
  **Step 2:**
 
 1. Go to your VM desktop and open **Microsoft Data Migration assistant**.
-![The Select Top 1000 rows menu item is highlighted.](images/dms.png 'Select Top 1000')
+ ![The Select Top 1000 rows menu item is highlighted.](images/dms.png 'Select Top 1000')
 
 2. Click on **+** Sign and Select **Migration**, Enter your project name and please ensure that Source Sever type is selected to **SQL Server** and target server is selected to **Azure SQL Database**, Migration Scope is selected to**Schema and data** after selecting all click on Create button.
 
@@ -123,7 +123,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
  ![The Select Top 1000 rows menu item is highlighted.](images/labvm.png 'Select Top 1000')
 
 4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
-![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
+ ![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
 
 5. Now on **select target** blade enter your SQL Server URL, select authentication type as **SQL Server authentication** and enter your credentials you enter while creating the SQL Server is previous step. Select **Trust server certificate** and click on connect.
 
@@ -134,6 +134,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 7. In the next blade click **Generate SQL Script**.
  ![The Select Top 1000 rows menu item is highlighted.](images/sqlscript.png 'Select Top 1000')
+ 
 8. After complete the Generate SQL Scripp click on **Deploy schema**, after **Schema deployment is completed** click on **MIgrate Data** button.
  ![The Select Top 1000 rows menu item is highlighted.](images/schema.png 'Select Top 1000')
 
