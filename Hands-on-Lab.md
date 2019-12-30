@@ -95,16 +95,16 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
   ![The Select Top 1000 rows menu item is highlighted.](images/sqldatabase.png 'database')
 
 3. On **SQL Database** blade, select your RG and enter unique name for SQL Database. 
-
   ![The Select Top 1000 rows menu item is highlighted.](images/server.png 'Select Top 1000')
   
    **A**. On Server option click on create new and enter unique details, Name and credentials and click ok. 
-   ![The Select Top 1000 rows menu item is highlighted.](images/server1.png 'Select Top 1000')
+      ![The Select Top 1000 rows menu item is highlighted.](images/server1.png 'Select Top 1000')
    
    **B**. Go to **Networking** on SQL database blade and select connectivity method to **Public Endpoint** and select yes on **Allow azure services and resources to access this server** and **Add current cliend IP address**.
-  ![The Select Top 1000 rows menu item is highlighted.](images/network.png 'Select Top 1000')
+      ![The Select Top 1000 rows menu item is highlighted.](images/network.png 'Select Top 1000')
   
    **C**. Click on **Review and Create** button and then create button.
+
 
 4. Copy the Server name of SQL Database and save in notepad for later use.
   ![The Select Top 1000 rows menu item is highlighted.](images/sql.png 'Select Top 1000')
@@ -115,18 +115,15 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
   ![The Select Top 1000 rows menu item is highlighted.](images/dms.png 'Select Top 1000')
 
 2. Click on **+** Sign and Select **Migration**, Enter your project name and please ensure that Source Sever type is selected to **SQL Server** and target server is selected to **Azure SQL Database**, Migration Scope is selected to**Schema and data** after selecting all click on Create button.
-
  ![The Select Top 1000 rows menu item is highlighted.](images/database.png 'Select Top 1000')
 
 3. On Select source Blade add server name as **labvm**, Authentication type as **SQL Server authentication**, enter user name as **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on connect.
-
   ![The Select Top 1000 rows menu item is highlighted.](images/labvm.png 'Select Top 1000')
 
 4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
   ![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
 
 5. Now on **select target** blade enter your SQL Server URL, select authentication type as **SQL Server authentication** and enter your credentials you enter while creating the SQL Server is previous step. Select **Trust server certificate** and click on connect.
-
   ![The Select Top 1000 rows menu item is highlighted.](images/target.png 'Select Top 1000')
 
 6. After clicking on connect button select the database you created with SQL Server in previous step and click on **Next** button.
