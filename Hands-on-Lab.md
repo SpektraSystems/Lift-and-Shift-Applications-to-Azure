@@ -116,10 +116,11 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 2. Click on **+** Sign and Select **Migration**, Enter your project name and please ensure that Source Sever type is selected to **SQL      Server** and target server is selected to **Azure SQL Database**, Migration Scope is selected to**Schema and data** after selecting      all   click on Create button.
 
- ![The Select Top 1000 rows menu item is highlighted.](images/database.png 'Select Top 1000')
+    ![The Select Top 1000 rows menu item is highlighted.](images/database.png 'Select Top 1000')
 
 3. On Select source Blade add server name as **labvm**, Authentication type as **SQL Server authentication**, enter user name as            **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on        connect.
-  ![The Select Top 1000 rows menu item is highlighted.](images/labvm.png 'Select Top 1000')
+
+    ![The Select Top 1000 rows menu item is highlighted.](images/labvm.png 'Select Top 1000')
 
 4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
   ![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
@@ -172,7 +173,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 3. After clicking on go button, it will open a new tab in your browser and search for **config.json** and open it.
    ![The Select Top 1000 rows menu item is highlighted.](images/config1.png 'Select Top 1000')
 
-4. Copy the below code and paste it in **config.json** file and it will save automattically. Please remember to change your password in connection string otherwise it will not connect with your SQL server.
+4. Copy the below code and paste it in **config.json** file and it will save automattically. Please make sure to change your password in connection string otherwise it will not connect with your SQL Database.
   ![The Select Top 1000 rows menu item is highlighted.](images/sonnection.png 'Select Top 1000')
 
 ``` "ConnectionStrings": {
