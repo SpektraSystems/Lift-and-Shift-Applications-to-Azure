@@ -98,13 +98,13 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
   ![The Select Top 1000 rows menu item is highlighted.](images/server.png 'Select Top 1000')
   
-     **A**. On Server option click on create new and enter unique details, Name and credentials and click ok. 
+   **A**. On Server option click on create new and enter unique details, Name and credentials and click ok. 
    ![The Select Top 1000 rows menu item is highlighted.](images/server1.png 'Select Top 1000')
    
-     **B**. Go to **Networking** on SQL database blade and select connectivity method to **Public Endpoint** and select yes on **Allow azure services and resources to access this server** and **Add current cliend IP address**.
+   **B**. Go to **Networking** on SQL database blade and select connectivity method to **Public Endpoint** and select yes on **Allow azure services and resources to access this server** and **Add current cliend IP address**.
   ![The Select Top 1000 rows menu item is highlighted.](images/network.png 'Select Top 1000')
   
-    **C**. Click on **Review and Create** button and then create button.
+   **C**. Click on **Review and Create** button and then create button.
 
 4. Copy the Server name of SQL Database and save in notepad for later use.
  ![The Select Top 1000 rows menu item is highlighted.](images/sql.png 'Select Top 1000')
