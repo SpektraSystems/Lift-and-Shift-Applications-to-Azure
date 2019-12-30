@@ -92,7 +92,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 1. Create SQL Database from Azure portal.
 
 2. Go to your azure portal, Open **Lift-and-Shift-#####** RG and click on add button and search for **SQL DATABASE** and click on create button. 
- ![The Select Top 1000 rows menu item is highlighted.](images/sqldatabase.png 'database')
+  ![The Select Top 1000 rows menu item is highlighted.](images/sqldatabase.png 'database')
 
 3. On **SQL Database** blade, select your RG and enter unique name for SQL Database. 
 
@@ -107,12 +107,12 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
    **C**. Click on **Review and Create** button and then create button.
 
 4. Copy the Server name of SQL Database and save in notepad for later use.
- ![The Select Top 1000 rows menu item is highlighted.](images/sql.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/sql.png 'Select Top 1000')
 
  **Step 2:**
 
 1. Go to your VM desktop and open **Microsoft Data Migration assistant**.
- ![The Select Top 1000 rows menu item is highlighted.](images/dms.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/dms.png 'Select Top 1000')
 
 2. Click on **+** Sign and Select **Migration**, Enter your project name and please ensure that Source Sever type is selected to **SQL Server** and target server is selected to **Azure SQL Database**, Migration Scope is selected to**Schema and data** after selecting all click on Create button.
 
@@ -120,62 +120,62 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 3. On Select source Blade add server name as **labvm**, Authentication type as **SQL Server authentication**, enter user name as **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on connect.
 
- ![The Select Top 1000 rows menu item is highlighted.](images/labvm.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/labvm.png 'Select Top 1000')
 
 4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
- ![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
 
 5. Now on **select target** blade enter your SQL Server URL, select authentication type as **SQL Server authentication** and enter your credentials you enter while creating the SQL Server is previous step. Select **Trust server certificate** and click on connect.
 
- ![The Select Top 1000 rows menu item is highlighted.](images/target.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/target.png 'Select Top 1000')
 
 6. After clicking on connect button select the database you created with SQL Server in previous step and click on **Next** button.
 
 
 7. In the next blade click **Generate SQL Script**.
- ![The Select Top 1000 rows menu item is highlighted.](images/sqlscript.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/sqlscript.png 'Select Top 1000')
  
 8. After complete the Generate SQL Scripp click on **Deploy schema**, after **Schema deployment is completed** click on **MIgrate Data** button.
- ![The Select Top 1000 rows menu item is highlighted.](images/schema.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/schema.png 'Select Top 1000')
 
 9. Please ensure all 14 table are selected and click on **Start data migration**.
- ![The Select Top 1000 rows menu item is highlighted.](images/startdata.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/startdata.png 'Select Top 1000')
 
 ## Exercise 3: Publish Application in Azure App serice Using visual studio 2017 community.
 
 1. Go to you Start menu and open **Visual Studio 2017**.
 
 2. Click on Sign in button and login using your azure credentials from your lab details page.
- ![The Select Top 1000 rows menu item is highlighted.](images/vs.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/vs.png 'Select Top 1000')
 
 3. click on **Open Project/ Solution** and navigate to **C:\PartsUnlimited-master** and double click on **PartsUnlimited.sln**.
- ![The Select Top 1000 rows menu item is highlighted.](images/project.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/project.png 'Select Top 1000')
 
 3. Go to solution explorer and right click on **PartsUnlimitedWebsite** and select publish.
-![The Select Top 1000 rows menu item is highlighted.](images/publish.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/publish.png 'Select Top 1000')
 
 4. On **PartsunlimitedWebsite** page please make sure to click on **New Profile** and select **Select Existing** and click next button and sign in using your azure credentials from Lab details page.
- ![The Select Top 1000 rows menu item is highlighted.](images/nwqprofile.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/nwqprofile.png 'Select Top 1000')
 
 5. After Sign in select you subscription if you have multiple subscriptions, make sure you select right subscrtiption, Select same Resource Group where you create App Service and SQL Server in previously exercises, and expand your RG and select the **app service** you created and click **ok** button.
- ![The Select Top 1000 rows menu item is highlighted.](images/selectapp.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/selectapp.png 'Select Top 1000')
 
 7. You should see **Web App was published successfully http://partsunlimited.azurewebsites.net/** in your visual studio 2017 output windows. you can copy your website URL and can check if it is working fine or not.
- ![The Select Top 1000 rows menu item is highlighted.](images/published.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/published.png 'Select Top 1000')
 
 ## Exercise 4: Connect your SQL Server database to your website.
 
 1. Go to your SQL Server database connection strings blade and copy your **ADO.NET** key and change your SQL Server user name and password, and save it in a notepad for later use.
- ![The Select Top 1000 rows menu item is highlighted.](images/string.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/string.png 'Select Top 1000')
 
 2. got to your **App Service** search for **App Service editor** and click on **Go** button.
- ![The Select Top 1000 rows menu item is highlighted.](images/appservice.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/appservice.png 'Select Top 1000')
 
 3. After clicking on go button, it will open a new tab in your browser and search for **config.json** and open it.
- ![The Select Top 1000 rows menu item is highlighted.](images/config1.png 'Select Top 1000')
+   ![The Select Top 1000 rows menu item is highlighted.](images/config1.png 'Select Top 1000')
 
 4. Copy the below code and paste it in **config.json** file and it will save automattically. Please remember to change your password in connection string otherwise it will not connect with your SQL server.
- ![The Select Top 1000 rows menu item is highlighted.](images/sonnection.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/sonnection.png 'Select Top 1000')
 
 ``` "ConnectionStrings": {
     "DefaultConnectionString": "Server=tcp:partsunlimited23.database.windows.net,1433;Initial Catalog=partunliitedDb;Persist Security Info=False;User ID=demouser;Password=Password.1!!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" }
