@@ -78,7 +78,8 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 ![The Select Top 1000 rows menu item is highlighted.](images/migrateproject.png 'migrate')
 
 13. Go back to your Azure App Service Migration Assistant and select the migrate project you just created and click on **Migrate**           button.
-    **Note** *You might have to go back to the beginning of the Azure Migrate: Web App Migration and step through again to see  azure        migrate project name appear in the drop down list.
+
+    **Note:** You might have to go back to the beginning of the Azure Migrate: Web App Migration and step through again to see  azure        migrate project name appear in the drop down list.
 ![The Select Top 1000 rows menu item is highlighted.](images/migrateapp.png 'project')
 
 14. Now after migration you should be able to see **Got to your website** and click on the **Got to your website**. This will open one       browser window and you will be able to see **IIS** default page.
