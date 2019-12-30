@@ -41,17 +41,20 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 1. Run the **App Service Migration Assistant** from you Start Menu.
 
 2. Select the default Web Site and click on Next button.
-![The Select Top 1000 rows menu item is highlighted.](images/defau;t.png 'app service')
+ ![The Select Top 1000 rows menu item is highlighted.](images/defau;t.png 'app service')
 
+2. Please make sure on **Assessment Report** blade it should be on success note, and click on next button.
+ ![The Select Top 1000 rows menu item is highlighted.](images/defau;t.png 'app service')
+ 
 3. Click on **Copy Code & Open** it will open one browser window.
-![The Select Top 1000 rows menu item is highlighted.](images/code.png 'code')
+ ![The Select Top 1000 rows menu item is highlighted.](images/code.png 'code')
 
 
 4. Paste the code here and click on next and Enter you Azure credentials from you Lab Details Page.
-![The Select Top 1000 rows menu item is highlighted.](images/code2.png 'Select Top 1000')
+ ![The Select Top 1000 rows menu item is highlighted.](images/code2.png 'Select Top 1000')
 
 5. You will see Azure App Service Migration Assistant Signed in page.
-![The Select Top 1000 rows menu item is highlighted.](images/signin.png 'Select Top 1000')
+ ![The Select Top 1000 rows menu item is highlighted.](images/signin.png 'Select Top 1000')
 
 6. Now select the subscription and click Use existing Resource Group and select **Lift-and-Shift-######** Enter your unique destination    Site Name.
   ![The Select Top 1000 rows menu item is highlighted.](images/app.png 'Select Top 1000')
@@ -69,13 +72,15 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 ![The Select Top 1000 rows menu item is highlighted.](images/migration.png 'Select Top 1000')
 
 11. Click on **Add Tools** button.
-![The Select Top 1000 rows menu item is highlighted.](images/migration.png 'Select Top 1000')
+![The Select Top 1000 rows menu item is highlighted.](images/tools.png 'Select Top 1000')
 
-12. You should be able to see the migrate project select. After this click on **Add migration tools** and select the migration tool         **Azure Migrate: Web App Migration** and click on add tools.
-![The Select Top 1000 rows menu item is highlighted.](images/migrateproject.png 'Select Top 1000')
+12. You should be able to see the migrate project selected.
+![The Select Top 1000 rows menu item is highlighted.](images/migrateproject.png 'migrate')
 
 13. Go back to your Azure App Service Migration Assistant and select the migrate project you just created and click on **Migrate**           button.
-![The Select Top 1000 rows menu item is highlighted.](images/migrateapp.png 'Select Top 1000')
+    **Note** *You might have to go back to the beginning of the Azure Migrate: Web App Migration and step through again to see  azure        migrate project name appear in the drop down list.
+![The Select Top 1000 rows menu item is highlighted.](images/migrateapp.png 'project')
+
 14. Now after migration you should be able to see **Got to your website** and click on the **Got to your website**. This will open one       browser window and you will be able to see **IIS** default page.
 ![The Select Top 1000 rows menu item is highlighted.](images/website.png 'Select Top 1000')
 
@@ -83,26 +88,27 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 **Step 1:**
 
-1. Create SQL server and database from Azure portal.
-![The Select Top 1000 rows menu item is highlighted.](images/ads-reviews-select-top-1000.png 'Select Top 1000')
+1. Create SQL Database from Azure portal.
 
-2. Open your RG and click on add button and search for **SQL SERVER** and create **SQL SERVER** and select you RG, enter unique          **Server Name** set location same as your RG and Enter login, Password for the **SQL Server**.
-![The Select Top 1000 rows menu item is highlighted.](images/sqlserver.png 'Select Top 1000')
+2. Go to your azure portal, Open **Lift-and-Shift-#####** RG and click on add button and search for **SQL DATABASE** and click on create button. 
+![The Select Top 1000 rows menu item is highlighted.](images/sqldatabase.png 'database')
 
-3. Click on networking blade select yes on **Allow Azure services and resources to access this server**. after this click on **Review +    create**.
+3. On **SQL Database** blade, select your RG and enter unique name for SQL Database. 
 
-  ![The Select Top 1000 rows menu item is highlighted.](images/yes.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/server.png 'Select Top 1000')
   
-4. After deployment completed open sql server blade and click in new database and create a new database for migration.
+  A. On Server option click on create new and enter unique details, Name and credentials and click ok. 
+   ![The Select Top 1000 rows menu item is highlighted.](images/server1.png 'Select Top 1000')
+   
+  B. Go to **Networking** on SQL database blade and select connectivity method to **Public Endpoint** and select yes on **Allow azure services and resources to access this server** and **Add current cliend IP address**.
+  ![The Select Top 1000 rows menu item is highlighted.](images/network.png 'Select Top 1000')
+  
+  C. Click on **Review and Create** button and then create button.
 
-5. Enter unique name for database and source select empty and click on **ok**.
-
- ![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
-
-4. Copy the Server name of SQL Server Database in notepad for later use.
+4. Copy the Server name of SQL Database and save in notepad for later use.
 ![The Select Top 1000 rows menu item is highlighted.](images/sql.png 'Select Top 1000')
 
-**Step 2:**
+ **Step 2:**
 
 1. Go to your VM desktop and open **Microsoft Data Migration assistant**.
 ![The Select Top 1000 rows menu item is highlighted.](images/dms.png 'Select Top 1000')
@@ -113,7 +119,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 3. On Select source Blade add server name as **labvm**, Authentication type as **SQL Server authentication**, enter user name as **demouser** Password **Password.1!!**. make sure you select **encrypt connection** and **trust server certificate** and click on connect.
 
- ![The Select Top 1000 rows menu item is highlighted.](images/db.png 'Select Top 1000')
+ ![The Select Top 1000 rows menu item is highlighted.](images/labvm.png 'Select Top 1000')
 
 4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
 ![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
