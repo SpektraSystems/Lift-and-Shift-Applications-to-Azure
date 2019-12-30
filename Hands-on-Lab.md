@@ -121,7 +121,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
     ![The Select Top 1000 rows menu item is highlighted.](images/labvm.png 'Select Top 1000')
 
 4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
-  ![The Select Top 1000 rows menu item is highlighted.](images/dbnew.png 'Select Top 1000')
+  ![The Select Top 1000 rows menu item is highlighted.](images/ld.png 'Select Top 1000')
 
 5. Now on **select target** blade enter your SQL Server URL, select authentication type as **SQL Server authentication** and enter your credentials you enter while creating the SQL Server is previous step. Select **Trust server certificate** and click on connect.
   ![The Select Top 1000 rows menu item is highlighted.](images/target.png 'Select Top 1000')
