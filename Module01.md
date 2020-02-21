@@ -32,7 +32,7 @@ In this exercise, you will log into the **Azure Portal** using your Azure creden
 
   ![The Select Top 1000 rows menu item is highlighted.](images/user.png 'app service')
 
-3. **Enter** the **Password** and click on **Sign in**.In the Stay signed in? pop-up window, click **No**.
+3. **Enter** the **Password** and click on **Sign in**.In the Stay signed in? pop-up window, click **No**.</br>
   
     ![The Select Top 1000 rows menu item is highlighted.](images/password.png 'app service')
 
