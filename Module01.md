@@ -1,9 +1,9 @@
 ## Module 0: Introduction to Azure Portal
  
- ### Lab Overview
+ ### Exervice Overview
 This lab will take you through Azure login and portal experience and the pre-requisite environment.
 
-### Option 1: Using Preconfigured Environment
+
 
 ### Time Estimate
 
