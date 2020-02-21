@@ -28,11 +28,11 @@ Please ensure to take the values assigned to your deployment.
 In this exercise, you will log into the **Azure Portal** using your Azure credentials and you will verify the type of role you are assigned in this Subscription.
 1.  **Navigate** to https://portal.azure.com and login (from the previous step).
 2.  **Enter** the **Username** which was displayed in the previous window and **click** on **Next**.<br/>
-![The Select Top 1000 rows menu item is highlighted.](images/username .png 'app service')
+![The Select Top 1000 rows menu item is highlighted.](images/user.png 'app service')
 3. **Enter** the **Password** and click on **Sign in**.In the Stay signed in? pop-up window, click **No**.
 ![The Select Top 1000 rows menu item is highlighted.](images/password.png 'app service')
 4.	In the Welcome to **Microsoft Azure** pop-up window, click **Maybe Later**.
 ![The Select Top 1000 rows menu item is highlighted.](images/maybe.png 'app service')
 5. You will see one Resource Group on which you have access. 
 6. Click on **Lift-and-Shift-XXXXX** Resource Group which contains the pre-deployed Database Migration Server as shown below:
-![The Select Top 1000 rows menu item is highlighted.](images/rg.png 'app service')
+![The Select Top 1000 rows menu item is highlighted.](images/reg.png 'app service')
