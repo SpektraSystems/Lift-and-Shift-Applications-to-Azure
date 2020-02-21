@@ -19,7 +19,7 @@ In this exercise, you will create a source environment.
 2. Once registration is accepted, you will be automatically redirected to the lab activation page. Now, it is advised to save a copy of the URL on the browser, which has the activation id. **Click** on the **Launch Lab** button.<br/>
     ![The Select Top 1000 rows menu item is highlighted.](images/launch.png 'app service')
 
-3. You will see the environment details soon below.<br/>
+3. Click on Environment details button to get your lab credentials.
     ![The Select Top 1000 rows menu item is highlighted.](images/details.png 'app service')
 
 
