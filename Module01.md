@@ -23,8 +23,6 @@ In this exercise, you will create a source environment.
 3. You will see the environment details soon below.<br/>
   ![The Select Top 1000 rows menu item is highlighted.](images/details.png 'app service')
 
-Please ensure to take the values assigned to your deployment.
-
 
 ### Exercise 2: Log into your Azure Portal and Verify access to the Subscription
 
@@ -36,11 +34,11 @@ In this exercise, you will log into the **Azure Portal** using your Azure creden
 
 3. **Enter** the **Password** and click on **Sign in**.In the Stay signed in? pop-up window, click **No**.
   
-  ![The Select Top 1000 rows menu item is highlighted.](images/password.png 'app service')
+    ![The Select Top 1000 rows menu item is highlighted.](images/password.png 'app service')
 
 4.	In the Welcome to **Microsoft Azure** pop-up window, click **Maybe Later**.
 
-  ![The Select Top 1000 rows menu item is highlighted.](images/maybe.png 'app service')
+    ![The Select Top 1000 rows menu item is highlighted.](images/maybe.png 'app service')
 
 5. You will see one Resource Group on which you have access. 
 6. Click on **Lift-and-Shift-XXXXX** Resource Group which contains the pre-deployed Virtual Machine as shown below:
