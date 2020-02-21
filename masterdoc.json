@@ -1,0 +1,15 @@
+  
+[
+  {
+    "Name": "Lift and Shift Applications to Azure",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Lift-and-Shift-Applications-to-Azure/master/Module01.md",
+        "Order": 1
+
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/Lift-and-Shift-Applications-to-Azure/master/Hands-on-Lab.md",
+        "Order": 2
+      },
