@@ -33,7 +33,7 @@ In this exercise, you will log into the **Azure Portal** using your Azure creden
 3. **Enter** the **Password** and click on **Sign in**.In the Stay signed in? pop-up window, click **No**.</br>
     ![The Select Top 1000 rows menu item is highlighted.](images/password.png 'app service')
 
-4.	In the Welcome to **Microsoft Azure** pop-up window, click **Maybe Later**.
+4.	In the Welcome to **Microsoft Azure** pop-up window, click **Maybe Later**.</br>
     ![The Select Top 1000 rows menu item is highlighted.](images/maybe.png 'app service')
 
 5. You will see one Resource Group on which you have access. 
