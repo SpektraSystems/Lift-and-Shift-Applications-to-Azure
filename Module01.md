@@ -13,6 +13,7 @@ This lab will take you through Azure login and portal experience and the pre-req
 
 In this exercise, you will create a source environment.
 1.	**Navigate** to bit.ly link which was provided by instructor and register by providing all required information and **clicking** on **SUBMIT button**.
+    
     ![The Select Top 1000 rows menu item is highlighted.](images/reg.png 'app service')
 
 2. Once registration is accepted, you will be automatically redirected to the lab activation page. Now, it is advised to save a copy of the URL on the browser, which has the activation id. **Click** on the **Launch Lab** button.<br/>
