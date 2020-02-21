@@ -22,7 +22,7 @@ In this exercise, you will create a source environment.
 ![The Select Top 1000 rows menu item is highlighted.](images/launch.png 'app service')
 
 3. You will see the environment details soon below.<br/>
-<img src="images/details.jpg"/><br/> ![The Select Top 1000 rows menu item is highlighted.](images/details.png 'app service')
+![The Select Top 1000 rows menu item is highlighted.](images/details.png 'app service')
 Please ensure to take the values assigned to your deployment.
 
 
