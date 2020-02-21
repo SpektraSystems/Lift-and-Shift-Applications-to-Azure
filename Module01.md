@@ -36,3 +36,5 @@ In this exercise, you will log into the **Azure Portal** using your Azure creden
 5. You will see one Resource Group on which you have access. 
 6. Click on **Lift-and-Shift-XXXXX** Resource Group which contains the pre-deployed Virtual Machine as shown below:
 ![The Select Top 1000 rows menu item is highlighted.](images/portal.png 'app service')
+7. Connect to you Virtual Machine from given details on Lab credentials page.
+![The Select Top 1000 rows menu item is highlighted.](images/vm.png 'app service')
