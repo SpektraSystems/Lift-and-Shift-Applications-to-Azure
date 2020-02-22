@@ -116,7 +116,7 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
    ![The Select Top 1000 rows menu item is highlighted.](images/labvm.png 'Select Top 1000')
 
-4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.
+4. You should be able to see one **partsunlimiteddb** database. select that and click on next button.</br>
    ![The Select Top 1000 rows menu item is highlighted.](images/ld.png 'Select Top 1000')
 
 5. Now on **select target** blade enter your SQL Server URL, select authentication type as **SQL Server authentication** and enter your credentials you enter while creating the SQL Server is previous step. Select **Trust server certificate** and click on connect.
@@ -138,13 +138,13 @@ You can also use the Microsoft Assessment and Planning Toolkit (the "MAP Toolkit
 
 1. Go to you Start menu and open **Visual Studio 2017**.
 
-2. Click on Sign in button and login using your azure credentials from your lab details page.
+2. Click on Sign in button and login using your azure credentials from your lab details page.</br>
    ![The Select Top 1000 rows menu item is highlighted.](images/vs.png 'Select Top 1000')
 
 3. click on **Open Project/ Solution** and navigate to **C:\PartsUnlimited-master** and double click on **PartsUnlimited.sln**.
    ![The Select Top 1000 rows menu item is highlighted.](images/project.png 'Select Top 1000')
 
-4. Go to solution explorer and right click on **PartsUnlimitedWebsite** and select publish.
+4. Go to solution explorer and right click on **PartsUnlimitedWebsite** and select publish.</br>
    ![The Select Top 1000 rows menu item is highlighted.](images/publish.png 'Select Top 1000')
 
 5. On **PartsunlimitedWebsite** page please make sure to click on **New Profile** and select **Select Existing** and click next button      and sign in using your azure credentials from Lab details page.</br></br>
